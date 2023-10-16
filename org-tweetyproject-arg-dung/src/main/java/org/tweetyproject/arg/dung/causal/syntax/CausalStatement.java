@@ -30,7 +30,7 @@ import org.tweetyproject.logics.pl.syntax.PlFormula;
  * @version TweetyProject 1.23
  *
  */
-public abstract class CausalStatement {
+public class CausalStatement {
 	private HashSet<PlFormula> conclusions;
 	
 	private HashSet<PlFormula> premises;
